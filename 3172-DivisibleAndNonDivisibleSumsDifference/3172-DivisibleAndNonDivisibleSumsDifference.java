@@ -1,0 +1,12 @@
+// Last updated: 7/9/2026, 3:04:33 PM
+class Solution {
+    public int differenceOfSums(int n, int m) {
+        int a=0,b=0;
+        for(int i=0;i<=n;i++){
+            if(i%m!=0)
+            a+=i;
+            else b+=i;
+        }
+        return a - b;
+    }
+}
